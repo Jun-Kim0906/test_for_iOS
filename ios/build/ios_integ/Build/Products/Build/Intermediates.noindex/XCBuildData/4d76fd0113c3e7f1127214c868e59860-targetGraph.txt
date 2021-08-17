@@ -1,0 +1,16 @@
+Target dependency graph (6 targets)
+Flutter in Pods
+integration_test in Pods, depends on:
+Flutter in Pods (explicit)
+Pods-Runner in Pods, depends on:
+Flutter in Pods (explicit)
+integration_test in Pods (explicit)
+Runner in Runner, depends on:
+Pods-Runner in Pods (implicit dependency via file 'Pods_Runner.framework' in build phase 'Link Binary'
+integration_test in Pods (implicit dependency via options '-framework integration_test' in build setting 'OTHER_LDFLAGS'
+Pods-RunnerTests in Pods, depends on:
+Pods-Runner in Pods (explicit)
+RunnerTests in Runner, depends on:
+Runner in Runner (explicit)
+Pods-RunnerTests in Pods (implicit dependency via file 'Pods_RunnerTests.framework' in build phase 'Link Binary'
+integration_test in Pods (implicit dependency via options '-framework integration_test' in build setting 'OTHER_LDFLAGS'

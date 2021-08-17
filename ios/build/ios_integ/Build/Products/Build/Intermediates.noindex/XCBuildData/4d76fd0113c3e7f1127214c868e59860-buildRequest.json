@@ -1,0 +1,67 @@
+{
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "6ff018a4395a996512978058d061cee688a783a885d8b0b3beb2e9f90bde3f49"
+    },
+    {
+      "guid" : "6ff018a4395a996512978058d061cee688c08d465286d357f15d8ba8f5adf537"
+    }
+  ],
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64e",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : true,
+      "platform" : "iphoneos",
+      "sdk" : "iphoneos14.5",
+      "sdkVariant" : "iphoneos",
+      "supportedArchitectures" : [
+        "armv4t",
+        "armv5",
+        "armv6",
+        "armv7",
+        "armv7f",
+        "armv7s",
+        "armv7k",
+        "arm64",
+        "arm64e"
+      ],
+      "targetArchitecture" : "arm64e"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/jun/Desktop/for_test/ios/build/ios_integ/Build/Products/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/jun/Desktop/for_test/ios/build/ios_integ/Build/Products/Build/Products",
+      "derivedDataPath" : "/Users/jun/Desktop/for_test/ios/build/ios_integ/Build/Products",
+      "indexDataStoreFolderPath" : "/Users/jun/Desktop/for_test/ios/build/ios_integ/Build/Products/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/jun/Desktop/for_test/ios/build/ios_integ/Build/Products/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/jun/Desktop/for_test/ios/build/ios_integ/Build/Products/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Flutter/Release.xcconfig",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+          "SDKROOT" : "iphoneos14.5"
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "COLOR_DIAGNOSTICS" : "YES",
+          "diagnostic_message_length" : "167",
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "test",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
